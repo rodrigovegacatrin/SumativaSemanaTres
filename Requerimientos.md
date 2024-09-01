@@ -6,15 +6,16 @@
    - Despacho gratuito para compras superiores a $50,000 dentro de un radio de 20 km.
    - Tarifa de $150 por kilómetro para compras entre $25,000 y $49,999.
    - Tarifa de $300 por kilómetro para compras menores de $25,000.
-4. **Ingreso de datos del vehículo**: El usuario debe poder ingresar información sobre su vehículo, incluyendo:
+4. ingreso de nombre y edad del usuario
+5. **Ingreso de datos del vehículo**: el usuario puede ingresar los datos del auto, incluyendo:
    - Marca
    - Modelo
    - Cilindrada
    - Tipo de combustible
    - Capacidad en pasajeros
-5. **Visualización de datos ingresados**: La aplicación debe mostrar la información del vehículo ingresada por el usuario.
-6. _____________________________________________________________________________________________________________________________
-7. ## Requerimientos No Funcionales
+6. **Visualización de datos ingresados**: La App debe mostrar la información del vehículo ingresada por el usuario.
+7. _____________________________________________________________________________________________________________________________
+8. ## Requerimientos No Funcionales
 
 1. **Compatibilidad**: La aplicación debe ser compatible con diferentes versiones de Android y dispositivos móviles.
 2. **Usabilidad**: La interfaz de usuario debe ser intuitiva y fácil de usar, permitiendo que los usuarios completen las tareas de manera eficiente.
