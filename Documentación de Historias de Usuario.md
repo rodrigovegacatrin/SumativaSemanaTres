@@ -2,14 +2,14 @@
 
 ##  1: Registro de Usuarios
 
-**Descripción:**
+Descripción:
 Como cliente quiero poder registrarme en la aplicación utilizando mi cuenta de Gmail para acceder al sistema.
 
-**Criterios de Aceptación:**
+Criterios de Aceptación:
 - El sistema debe permitir el registro de usuarios a través de una cuenta de Gmail.
 - El sistema debe mostrar un mensaje de confirmación después del registro exitoso.
 
-**Supuestos:**
+Supuestos:
 - Los usuarios ya tienen  cuenta de Gmail.
 _________________________________________________________________________________________________________________
 ## 2: Compra de Productos
@@ -17,7 +17,7 @@ ________________________________________________________________________________
 Descripción:
 Como usuario registrado, quiero poder seleccionar productos de la distribuidora y realizar una compra en línea, para recibir mis productos en la dirección que indique.
 
-**Criterios de Aceptación:**
+Criterios de Aceptación:
 - El sistema debe mostrar una lista de productos disponibles para la compra.
 - El usuario debe poder agregar productos al carrito de compras.
 - El sistema debe calcular el total de la compra y mostrar el costo final antes de realizar el pago.
@@ -30,13 +30,13 @@ ________________________________________________________________________________
 Descripción:
 e realizazado una compra y quiero que el sistema calcule el costo de despacho basado en el total de la compra y la distancia a mi domicilio, para conocer el costo final antes de realizar el pago.
 
-**Criterios de Aceptación:**
+Criterios de Aceptación:
 - Si la compra es mayor a $50,000, el despacho debe ser gratuito dentro de un radio de 20 km.
 - Para compras entre $25,000 y $49,999, el sistema debe calcular una tarifa de $150 por kilómetro.
 - Para compras menores a $25,000, el sistema debe calcular una tarifa de $300 por kilómetro.
 - El sistema debe mostrar el costo de despacho antes de confirmar la compra.
 
-**Supuestos:**
+supuestos:
 - La distancia se calcula automáticamente en función de la dirección del usuario.
 ___________________________________________________________________________________________________________________
 ## 4: Ingreso de Datos del Vehículo
