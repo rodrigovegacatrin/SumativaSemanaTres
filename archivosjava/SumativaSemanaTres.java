@@ -4,6 +4,17 @@ public class SumativaSemanaTres {  // Declaración de la clase principal del pro
     public static void main(String[] args) {  // Método principal donde comienza la ejecución del programa
         Scanner scanner = new Scanner(System.in);  // Crea un objeto Scanner para capturar la entrada del usuario
 
+        // Solicitar y mostrar datos del usuario
+        System.out.print("Ingrese su nombre: ");
+        String nombre = scanner.nextLine();
+
+        System.out.print("Ingrese su edad: ");
+        int edad = scanner.nextInt();
+        scanner.nextLine(); // Limpiar el buffer del Scanner
+
+        System.out.println("Nombre ingresado: " + nombre);
+        System.out.println("Edad ingresada: " + edad);
+
         // Solicitar y capturar la marca del vehículo
         System.out.print("Ingrese la marca: ");  // Muestra un mensaje en la consola pidiendo la marca
         String marca = scanner.nextLine();  // Captura la marca ingresada por el usuario y la almacena en la variable 'marca'
