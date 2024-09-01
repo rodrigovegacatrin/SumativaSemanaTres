@@ -39,7 +39,7 @@ e realizazado una compra y quiero que el sistema calcule el costo de despacho ba
 **Supuestos:**
 - La distancia se calcula automáticamente en función de la dirección del usuario.
 ___________________________________________________________________________________________________________________
-## H4: Ingreso de Datos del Vehículo
+## 4: Ingreso de Datos del Vehículo
 
 Descripción:
 Como usuario, quiero ingresar la información de mi vehículo para registrar detalles como marca, modelo, cilindrada, tipo de combustible, y capacidad de pasajeros.
