@@ -3,19 +3,22 @@
 ##  1: Registro de Usuarios
 
 Descripción:
-Como cliente quiero poder registrarme en la aplicación utilizando mi cuenta de Gmail para acceder al sistema.
+Como cliente quiero registrarme en la
+App utilizando mi cuenta de Gmail para acceder al sistema.
 
 Criterios de Aceptación:
 - El sistema debe permitir el registro de usuarios a través de una cuenta de Gmail.
 - El sistema debe mostrar un mensaje de confirmación después del registro exitoso.
 
 Supuestos:
-- Los usuarios ya tienen  cuenta de Gmail.
+- Los usuarios ya tienen cuenta de Gmail.
 _________________________________________________________________________________________________________________
 ## 2: Compra de Productos
 
 Descripción:
-Como usuario registrado, quiero poder seleccionar productos de la distribuidora y realizar una compra en línea, para recibir mis productos en la dirección que indique.
+Como usuario registrado, quiero poder seleccionar 
+productos y realizar una compra en línea luego 
+recibir mis productos en la dirección que deje registrada.
 
 Criterios de Aceptación:
 - El sistema debe mostrar una lista de productos disponibles para la compra.
@@ -23,12 +26,14 @@ Criterios de Aceptación:
 - El sistema debe calcular el total de la compra y mostrar el costo final antes de realizar el pago.
 
 Supuestos:
-- Los productos están actualizados y 
+- Los productos están actualizados y disponibles en la base de datos.
 ___________________________________________________________________________________________________________________
 ##  3: Cálculo de Costo de Despacho
 
 Descripción:
-e realizazado una compra y quiero que el sistema calcule el costo de despacho basado en el total de la compra y la distancia a mi domicilio, para conocer el costo final antes de realizar el pago.
+He realizazado una compra y quiero que el sistema calcule
+el costo de despacho basado en el total de la compra y la
+distancia a mi domicilio, para conocer el costo final antes de realizar el pago.
 
 Criterios de Aceptación:
 - Si la compra es mayor a $50,000, el despacho debe ser gratuito dentro de un radio de 20 km.
